@@ -8,7 +8,7 @@ frameworks needed: Keras, Tensorflow, Sklearn,NumPy,Pandas
 
 # A recurrent neural network (RNN) is similar to a feedfoward neural-net/MLP with the differences in the algorithm is that it has the capability of backpropagation, where connections are also pointing backwards sending the output back into itself. At each time-step(t) this recurrent neuron receives its input (x(t)) as well as output from previous time step (y(t)-1). When there is only one neuron the outputs are scalar when there are more than one input, outputs will be vectors.
 
-# Since outputs for a recurrent neuron at each time-step is a function of all imputs from previous time-steps, this  will make the model have the abilty to maintain a form of memory in its cell. LONG SHORT TERM MEMORY CELLS(LSTM'S) have the ability to go through time freely while it could be removed or erased while variables could be added to it as well . 
+# Since outputs for a recurrent neuron at each time-step is a function of all imputs from previous time-steps, this  will make the model have the ability to maintain a form of memory in its cell. LONG SHORT TERM MEMORY CELLS(LSTM'S) have the ability to go through time freely while it could be removed or erased while variables could be added to it as well . 
 
 ## Predicting stock prices is a difficult proccess given that the "Browning Motion" states that predicting stock prices is practically impossible because future variations of stock prices are independent of the past. While that is true it is possible to capture upward and downward trends of the stock prices with the correctly tuned model that can generate accurate predictions on various high dimensional datasets. 
 
